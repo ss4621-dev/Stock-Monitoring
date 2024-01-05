@@ -52,9 +52,7 @@ The application will be accessible at http://localhost:3001.
 ## Usage
 
 Access the stock data through the RESTful API:
-
    ```bash
    GET /api/stocks
-
 
 
