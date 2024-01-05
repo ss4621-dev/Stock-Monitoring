@@ -1,0 +1,57 @@
+/* StockList.css */
+
+.container {
+    margin: 20px;
+    width: 80%;
+  }
+  
+  h2 {
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  th, td {
+    border: 1px solid #ecf0f1;
+    padding: 16px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  /* Additional styles for better readability */
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  
