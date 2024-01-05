@@ -58,6 +58,3 @@ Access the stock data through the RESTful API:
 
 
 
-
-
-
