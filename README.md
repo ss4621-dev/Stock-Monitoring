@@ -51,8 +51,15 @@ The application will be accessible at http://localhost:3001.
 
 ## Usage
 
-Access the stock data through the RESTful API:
+1. Access the stock data through the RESTful API:
    ```bash
    GET /api/stocks
 
+2. Connect to the WebSocket for real-time updates:
+   ```bash
+   ws://localhost:3001/ws
+
+
+## Contributors
+Suman Shekhar
 
