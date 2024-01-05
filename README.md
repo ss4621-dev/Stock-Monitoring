@@ -25,21 +25,39 @@ This is a simple stock monitoring application that fetches stock data from the P
 
 1. Set up environment variables:
 
-Create a .env file in the project root and add the following:
+   Create a .env file in the project root and add the following:
 
-POLYGON_API_KEY=your_polygon_api_key_here
+     ```bash
+      POLYGON_API_KEY=your_polygon_api_key_here
 
 2. Install dependencies:
 
-go mod tidy
-npm install --prefix frontend
+   ```bash
+   go mod tidy
+   npm install --prefix frontend
 
 3. Build the frontend:
 
-npm run build --prefix frontend
+   ```bash
+   npm run build --prefix frontend
 
 4. Run the application:
 
-go run main.go
+   ```bash
+   go run main.go
 
 The application will be accessible at http://localhost:3001.
+
+
+## Usage
+
+Access the stock data through the RESTful API:
+
+   ```bash
+   GET /api/stocks
+
+
+
+
+
+
